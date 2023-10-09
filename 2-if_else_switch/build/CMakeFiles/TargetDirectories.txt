@@ -1,0 +1,10 @@
+/home/michail/BEST_3823B1FI3/2-if_else_switch/build/CMakeFiles/leapyear.dir
+/home/michail/BEST_3823B1FI3/2-if_else_switch/build/CMakeFiles/chocolate.dir
+/home/michail/BEST_3823B1FI3/2-if_else_switch/build/CMakeFiles/change.dir
+/home/michail/BEST_3823B1FI3/2-if_else_switch/build/CMakeFiles/icecream.dir
+/home/michail/BEST_3823B1FI3/2-if_else_switch/build/CMakeFiles/QuadraticEquation.dir
+/home/michail/BEST_3823B1FI3/2-if_else_switch/build/CMakeFiles/monthday.dir
+/home/michail/BEST_3823B1FI3/2-if_else_switch/build/CMakeFiles/chess.dir
+/home/michail/BEST_3823B1FI3/2-if_else_switch/build/CMakeFiles/twoboxes.dir
+/home/michail/BEST_3823B1FI3/2-if_else_switch/build/CMakeFiles/edit_cache.dir
+/home/michail/BEST_3823B1FI3/2-if_else_switch/build/CMakeFiles/rebuild_cache.dir

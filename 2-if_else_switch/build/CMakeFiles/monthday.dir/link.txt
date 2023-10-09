@@ -1,0 +1,1 @@
+/usr/bin/gcc -g -rdynamic CMakeFiles/monthday.dir/MonthDay/test.c.o -o monthday 

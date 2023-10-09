@@ -1,0 +1,1 @@
+/usr/bin/gcc -g -rdynamic CMakeFiles/twoboxes.dir/TwoBoxes/test.c.o -o twoboxes 

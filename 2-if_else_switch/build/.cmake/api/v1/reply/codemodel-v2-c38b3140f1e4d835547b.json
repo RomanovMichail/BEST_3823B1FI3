@@ -1,0 +1,119 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "QuadraticEquation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QuadraticEquation-Debug-126c14146deb336e18f1.json",
+					"name" : "QuadraticEquation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "change::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-change-Debug-59454cd9dde973032997.json",
+					"name" : "change",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chess::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chess-Debug-af7a8277c302cff27ef6.json",
+					"name" : "chess",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chocolate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chocolate-Debug-8cf8fd65ee171412aeac.json",
+					"name" : "chocolate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "icecream::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-icecream-Debug-47d4060cb4401cb39f57.json",
+					"name" : "icecream",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leapyear::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leapyear-Debug-19fcf55e6eaa0cecb21f.json",
+					"name" : "leapyear",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "monthday::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-monthday-Debug-442ce8a2b462f01e43a6.json",
+					"name" : "monthday",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "twoboxes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-twoboxes-Debug-cded00e3d41093c40064.json",
+					"name" : "twoboxes",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/michail/BEST_3823B1FI3/2-if_else_switch/build",
+		"source" : "/home/michail/BEST_3823B1FI3/2-if_else_switch"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

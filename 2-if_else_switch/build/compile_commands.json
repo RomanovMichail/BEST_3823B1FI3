@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/home/michail/BEST_3823B1FI3/2-if_else_switch/build",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/leapyear.dir/LeapYear/test.c.o -c /home/michail/BEST_3823B1FI3/2-if_else_switch/LeapYear/test.c",
+  "file": "/home/michail/BEST_3823B1FI3/2-if_else_switch/LeapYear/test.c"
+},
+{
+  "directory": "/home/michail/BEST_3823B1FI3/2-if_else_switch/build",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/chocolate.dir/Chocolate/test.c.o -c /home/michail/BEST_3823B1FI3/2-if_else_switch/Chocolate/test.c",
+  "file": "/home/michail/BEST_3823B1FI3/2-if_else_switch/Chocolate/test.c"
+},
+{
+  "directory": "/home/michail/BEST_3823B1FI3/2-if_else_switch/build",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/change.dir/Change/test.c.o -c /home/michail/BEST_3823B1FI3/2-if_else_switch/Change/test.c",
+  "file": "/home/michail/BEST_3823B1FI3/2-if_else_switch/Change/test.c"
+},
+{
+  "directory": "/home/michail/BEST_3823B1FI3/2-if_else_switch/build",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/icecream.dir/IceCream/test.c.o -c /home/michail/BEST_3823B1FI3/2-if_else_switch/IceCream/test.c",
+  "file": "/home/michail/BEST_3823B1FI3/2-if_else_switch/IceCream/test.c"
+},
+{
+  "directory": "/home/michail/BEST_3823B1FI3/2-if_else_switch/build",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/QuadraticEquation.dir/QuadraticEquation/test.c.o -c /home/michail/BEST_3823B1FI3/2-if_else_switch/QuadraticEquation/test.c",
+  "file": "/home/michail/BEST_3823B1FI3/2-if_else_switch/QuadraticEquation/test.c"
+},
+{
+  "directory": "/home/michail/BEST_3823B1FI3/2-if_else_switch/build",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/monthday.dir/MonthDay/test.c.o -c /home/michail/BEST_3823B1FI3/2-if_else_switch/MonthDay/test.c",
+  "file": "/home/michail/BEST_3823B1FI3/2-if_else_switch/MonthDay/test.c"
+},
+{
+  "directory": "/home/michail/BEST_3823B1FI3/2-if_else_switch/build",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/chess.dir/Chess/test.c.o -c /home/michail/BEST_3823B1FI3/2-if_else_switch/Chess/test.c",
+  "file": "/home/michail/BEST_3823B1FI3/2-if_else_switch/Chess/test.c"
+},
+{
+  "directory": "/home/michail/BEST_3823B1FI3/2-if_else_switch/build",
+  "command": "/usr/bin/gcc   -g -o CMakeFiles/twoboxes.dir/TwoBoxes/test.c.o -c /home/michail/BEST_3823B1FI3/2-if_else_switch/TwoBoxes/test.c",
+  "file": "/home/michail/BEST_3823B1FI3/2-if_else_switch/TwoBoxes/test.c"
+}
+]
