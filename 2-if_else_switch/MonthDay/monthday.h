@@ -1,12 +1,11 @@
 int monthday(int month, int year){
-    switch (expression)
+    switch (month)
     {
-    case month:
         case 1:
         return 31;
         break;
         case 2:
-        if ( year % 4 == 0)
+        if ( year % 4 != 0)
         return 28;
         else 
         return 29;

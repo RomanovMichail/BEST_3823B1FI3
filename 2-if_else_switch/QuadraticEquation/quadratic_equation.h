@@ -8,12 +8,12 @@ int QuadraticEquation(double a, double b, double c){
     if (d>0){
         x1 = (-b + sqrt(d))/2*a;
         x2 = (-b - sqrt(d))/2*a;
-        return rint(x1+x2);}
+        return -(int)(x1+x2);}
     else if (d == 0){
         x1 = -b/(2*a);
-        return rint(x1);}
+        return -(int)(x1);}
     else{
         x1 = -b/(2*a);
-        return rint(x1*2);
+        return -(int)(x1*2);
     }
 }
