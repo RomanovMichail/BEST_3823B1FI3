@@ -1,34 +1,63 @@
 int get_years(int seconds) {
-    return 0; // Not implementation
+
+    long int year;
+    year = seconds / (12*31*24*60*60);
+    return 1970 + year;
 }
 
 int get_month(int seconds) {
-    return 0; // Not implementation
+    long int month;
+    seconds = seconds % (12 * 31 * 24 * 60 * 60);
+    month = seconds / (31* 24 * 60 * 60);
+    return month;
 }
 
 int get_day(int seconds) {
-    return 0; // Not implementation
+    int day;
+    seconds = seconds % (12 * 31 * 24 * 60 * 60);
+    seconds = seconds % (31* 24 * 60 * 60);
+    day = seconds / (24 * 60 * 60);
+    return day;
 }
 
 int get_hours(int seconds) {
-    return 0; // Not implementation
+    int hours;
+    seconds = seconds % (12 * 31 * 24 * 60 * 60);
+    seconds = seconds % (31* 24 * 60 * 60);
+    seconds = seconds % (24 * 60 * 60);
+    hours = seconds / (60 * 60);
+    return hours;
 }
 
 int get_minutes(int seconds) {
-    return 0; // Not implementation
+    int minutes;
+    seconds = seconds % (12 * 31 * 24 * 60 * 60);
+    seconds = seconds % (31* 24 * 60 * 60);
+    seconds = seconds % (24 * 60 * 60);
+    seconds = seconds % (60 * 60);
+    minutes = seconds / (60);
+    return minutes;
 }
 
 int get_seconds(int seconds) {
-    return 0; // Not implementation
+    seconds = seconds % (12 * 31 * 24 * 60 * 60);
+    seconds = seconds % (31* 24 * 60 * 60);
+    seconds = seconds % (24 * 60 * 60);
+    seconds = seconds % (60 * 60);
+    seconds = seconds % (60);
+    return seconds;
 }
 
 
 int get_magical_value(int seconds) {
+    int ans;
     int year = get_years(seconds);
     int month = get_month(seconds);
     int day = get_day(seconds);
     int hours = get_hours(seconds);
     int minutes = get_minutes(seconds);
     int second = get_seconds(seconds);
-    return 0; // Not implementation
+    ans = ((year + month)/(1 + day + second))*((year + month)/(1 + day + second))+((minutes + (minutes/(1 + hours)))/(1 + hours));
+    return ans;
+    
 }
