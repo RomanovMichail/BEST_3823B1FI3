@@ -1,16 +1,20 @@
-#include<stdio.h>
-#include<math.h>
-int m = 0;
 int num_invers(int num){
-    if (num>0)
-    {
-        while (num)
-    {
-       m= m*10+num%10;
-       num /=m;
+    
+    if (num < 0) 
+        return 0;
+    int number = num;
+    int arr[10];
+    int index = 0;
+    int ans = 0;
+    while (number > 0){
+        arr[index] = number%10;
+        number/=10;
+        index++;
     }
-    }else {return 0;}
-    
-  
-    
+    int ten = 1;
+    for (int i = index-1; i>=0; i--){
+        ans = ans + arr[i]*ten;
+        ten *=10 ;
+    }
+    return ans;
 }
