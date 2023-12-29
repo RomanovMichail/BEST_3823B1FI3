@@ -1,6 +1,7 @@
 #include <math.h>
 #include <string.h>
-
+#include<stdlib.h>
+#include<stdio.h>
 int calculate_expression(char expression[])
 {
     char *end;
@@ -30,10 +31,9 @@ int calculate_expression(char expression[])
         } 
         else 
         {
-            return -1;
+            return 1;
         }
     }
     
-    printf("%d", result);
     return result;
 }
